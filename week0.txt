@@ -1,0 +1,101 @@
+
+0) Understand how to use a few very basic Linux commands like
+pwd, cd, cat, ls, mkdir:
+
+https://learnpythonthehardway.org/book/appendixa.html
+
+1) Download the following .iso file:
+
+https://www.dropbox.com/s/eezunyomx895br4/rl100-screencasts-final.iso?dl=0  
+
+(it is around 172Mb in size)
+
+2) Learn how to access the files inside this .iso file by doing what is
+called a "loopback mount" on Linux:
+
+https://www.cyberciti.biz/tips/how-to-mount-iso-image-under-linux.html 
+
+You will see a folder called "rl100" inside this .iso file once you do 
+a loopback mount. There will be folders like "cmdline", "commands" etc
+under "rl100". You can navigate to each folder using the "cd" and "cd .."
+commands. Each of these folders contain a few .mp4 files - these are
+some screencasts I have created for teaching basic usage of the Linux operating
+system.
+
+3) Watch the following screencasts (in the order specified) and experiment with the
+commands on your system. Please understand that passive watching IS NOT sufficient.
+You have to actively try out everything.
+(note: the screencasts are a few years old ... the graphical user interface you
+see there may not match the one that you have on your system. But that is irrelevant -
+as far as a programmer is concerned, the GUI is of little value ... the commandline
+is all that matters!).
+
+(*.mp4 means all the mp4 files)
+
+rl100/vim/vim.mp4   (you might have to install "vim" first: sudo apt-get install vim)
+rl100/cmdline/*.mp4
+rl100/commands/*.mp4
+rl100/director/director.mp4 
+rl100/compilat/compile.mp4
+rl100/gdb/gdb1.mp4 (optional - gdb is a tool used for debugging C programs - you 
+                    may skip this video if you find it hard to understand - but please
+                    give it a try)
+
+rl100/shellbas/shellbas.mp4 (optional - more information regarding the "shell" - the 
+                             "shell" is the program running within your terminal which reads
+                             the commands you type and executes them on your behalf - you may
+                             skip it if you find it too complicated - but please give it a try).
+
+4) Download the following and untar it:
+
+http://pramode.net/downloads/git.tgz
+
+5) Read and work out all the commands in "git1.pdf" which you
+get by untarring the above .tgz file.
+
+6) Watch 
+
+rl100/gitbasic/gitbasic.mp4
+
+(note: git is a *very* complex tool; don't worry if you find things to be
+a bit tricky. Just get a broad understanding, that is sufficient)
+
+7) Create a free account on github.com (note: use a good "id" when you create
+the account; you can use your name+year-of-birth or something of that sort. Your
+github id is almost as important as your email id)
+
+github.com is a web site which hosts git repositories for free; if you have 
+a project and if you want others to contribute to it, you can keep the source
+code of your project in a git repository on github.com and other people will
+be able to access your code and do collaborative development. 
+
+8) Learn how to use github.com by watching:
+
+rl100/github/*.mp4 (note: these are old screencasts - the github user interface
+                    might have changed significantly - you can find out by experimenting
+                   on your own)
+
+9) Start learning Python programming basics by reading and working out exercises in
+the following book:
+
+http://greenteapress.com/thinkpython/html/index.html
+
+You can skip the "case study" chapters. For the first week (June 1st to 7th), you
+need to finish the chapters up till and including "files".
+
+10) People who are completely new to programming: if you find the above book
+a bit difficult, you can read and work out the example code/exercises in this
+book:
+
+https://www.dropbox.com/s/c2s10e6jehx18c2/pylatex.pdf?dl=0 
+
+(it is a pdf document)
+
+(Chapters 1 to 13, skip chapters 4, 5).
+
+---------
+
+Please post (with all relevant details) to the class mailing list in case you
+have any problems.
+
+

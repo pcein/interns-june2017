@@ -1,0 +1,30 @@
+
+This note explains how you should go about doing the 
+internship.
+
+You should create a directory (folder) called "internship" in
+your system.
+
+Every day, you should create a text file inside this folder. On
+June 1st, you will create a file called:
+
+june1.txt
+
+
+This text file should contain a brief (say 4-5 sentence) description
+of  what all things you studied as part of the internship on that
+day.
+
+If you were not able to do anything on that day, DO NOT create the
+text file.
+
+As soon as you have studied the basics of git/github, convert this
+folder ("internship") to a git repo (by doing a "git init") and add
+and commit all the files in the folder. You should then create a 
+repository called "internship" on github and push the contents of your
+local git repo ("internship") to the remote repository.
+
+From now onwards, whenever you add a new file to the local repo, always
+synchronize with the github repo by pushing to it.
+
+
