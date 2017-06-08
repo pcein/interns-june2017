@@ -1,0 +1,19 @@
+
+You will focus 100% on basic Python programming this week.
+
+Please continue with your study of:
+
+http://greenteapress.com/thinkpython/html/index.html
+
+You can continue from "Classes and objects" to "Debugging". The case
+study chapter can be skipped.
+
+If there is sufficient time left, you should cover the chapter on 
+"Analysis of algorithms" also.
+
+
+Note: Some of the exercises in the book are challenging; you can skip
+them if you wish. But make sure you do the simpler exercises. The only
+way to learn a programming language is by reading and writing code.
+
+

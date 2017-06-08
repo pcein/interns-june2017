@@ -2,6 +2,8 @@
 This note explains how you should go about doing the 
 internship.
 
+---
+
 You should create a directory (folder) called "internship" in
 your system.
 
@@ -26,5 +28,7 @@ local git repo ("internship") to the remote repository.
 
 From now onwards, whenever you add a new file to the local repo, always
 synchronize with the github repo by pushing to it.
+
+---
 
 
