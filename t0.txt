@@ -26,7 +26,7 @@ qns.txt
 on the remote system.  You will have to find out where 
 this file is located (hint: the "find" command)
 
-c) Create a directory (under /home/guest which is your
+c) Create a directory on the remote system (under /home/guest which is your
 login directory) - the name of the directory
 should match your name; for example:
 
