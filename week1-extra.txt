@@ -10,9 +10,9 @@ The Python programming language (more specifically, the standard
 Python implementation called "cpython") is written in C. You can
 think of Python as a really large and complex C program!
 
-You can download the source code of Python from here:
+Here is the source code of python version 2.7.13:
 
-https://www.python.org/downloads/release/python-2713/ (version 2.7.13)
+https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
 
 Download it to your machine and try looking at some of the C source
 files.
@@ -21,6 +21,12 @@ Now, see if you can compile this large and complex C program and build
 your own copy of Python!
 
 (Google is your friend. Ask for stuff like "how to build python from source")
+
+If you are able to do this, create a git repo called "python-from-source" and
+store a file called README in this repo which briefly explains the steps you took
+to build python from source. 
+
+And don't forget to post a message to the group!
 
 More bonus points
 ==================
@@ -32,4 +38,8 @@ change it to suit your requirements.
 
 Can you make some trivial change to the Python programming language by
 modifying its C source?
+
+I will be *very* happy if some of you are able to do this ... don't forget
+to post to the mailing list!
+
 
