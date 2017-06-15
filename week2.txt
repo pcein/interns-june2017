@@ -1,0 +1,39 @@
+
+Week2 of Internship
+======================
+
+This week, you can proceed in one of two ways:
+
+a)
+
+Students from branches other than CS/IT, and those who
+are going a bit slow, can continue with the Think Python
+book:
+
+http://greenteapress.com/thinkpython/html/index.html
+
+For a first attempt, you can skip those exercise which might
+take a lot of time to complete. But please make sure that you 
+do all the simpler exercises. Put up all the code you write
+on github.
+
+               
+
+b) CS/IT students should complete the "Google Python Class" Exercises:
+
+
+https://developers.google.com/edu/python/
+
+You should go through the notes on the above site and complete a set of
+4 "Python Exercises" (basic, baby names, copy special, log puzzle).
+
+The exercise solution files should be put up on github.
+
+Please post on the mailing list as you finish each of the four exercises.
+
+------
+
+I hope all of you are posting daily updates to your github repo as instructed
+during the beginning of the internship.
+
+
