@@ -6,9 +6,9 @@ This week, you can proceed in one of two ways:
 
 a)
 
-Students from branches other than CS/IT, and those who
-are going a bit slow, can continue with the Think Python
-book:
+Those who are going a bit slow, can continue with the Think Python
+book (I believe most students from branches other than CS/IT would
+prefer this):
 
 http://greenteapress.com/thinkpython/html/index.html
 
@@ -19,7 +19,9 @@ on github.
 
                
 
-b) CS/IT students should complete the "Google Python Class" Exercises:
+b) Students who are somewhat comfortable with Python should complete the 
+"Google Python Class" Exercises (even if they have not covered the Think Python
+book thoroughly):
 
 
 https://developers.google.com/edu/python/
