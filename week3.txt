@@ -1,0 +1,128 @@
+
+Internship Week3 (Final week)
+===============================
+
+This week, you will use the knowledge acquired so far to
+do ANY one (or more, if you get time) of the following
+small projects:
+
+a) A program to efficiently download data from multiple URL's
+-------------------------------------------------------------
+
+Write a function which will retrieve data from multiple URL's. 
+
+For example:
+
+----
+
+# The argument to fetch_urls is a list of url's ... the list
+# can contain any number of urls.
+
+result = fetch_urls(["http://google.com", "http://pramode.net/clojure", 
+                     "http://recursive-labs.com/faq"])
+
+print result
+
+# {'google.com': "data_from_first_url", 'pramode.net/clojure': "data_from_second_url", .....}
+
+# the function fetch_urls returns a dictionary with keys = the url names and values = 
+# the data fetched from each url
+
+---
+
+You should NOT use any high level Python libraries (like urllib, requests etc) to
+do this. You should learn basic "socket programming" in Python:
+
+https://www.tutorialspoint.com/python/python_networking.htm
+
+(you will get many other resources on the net - please spend some time
+writing small client/server programs in Python using both UDP and TCP 
+protocols)
+
+and implement the fetch_urls function by directly establishing a TCP socket connection
+to the web server running on each domain and sending HTTP GET requests.
+
+Modification (note: very tricky)
+---------------------------------
+Suppose you are fetching only a small amount of data from each url (which makes the actual
+download time very small) and that establishing a connection with many of the domains might
+take a few seconds time.
+
+For example, imagine that establishing a connection to URL1 takes 4 seconds and the actual
+data transfer takes 50 milli seconds. This makes the total download time = 4 seconds + 50
+milli seconds = 4 seconds (ignore the milli seconds part).
+
+Now, imagine that establishing a connection to URL2 and URL3 takes 1 second and 3 second
+each (we will ignore the actual download time as it is very small in comparison).
+
+If you write a function which will download data from each URL one by one, how much time
+does it take?
+
+4 seconds + 1 second + 3 seconds = 8 seconds
+
+How do you make this faster?
+
+Imagine you have a method which lets you initiate a connection with URL1 and before
+waiting for it to complete, lets you initiate a connection with the next URL ... and 
+so on ....
+
+That is exactly what the "select" function lets you do:
+
+https://docs.python.org/2/library/select.html
+
+https://pymotw.com/2/select/
+
+http://steelkiwi.com/blog/working-tcp-sockets/  (I have not verified any of these links ...)
+
+You should rewrite the fetch_urls function using "select" and make it run faster!
+
+[Note: first write some small programs to understand the working of select]
+
+(It is possible to achieve the same effect through multi-threading. But we will not
+use that here)
+
+
+b) Creating a 2D game using PyGame
+------------------------------------
+
+The project is to create a game (whatever you like) using the "PyGame"
+library available in Python:
+
+https://www.pygame.org/news
+
+Learn PyGame basics using resources on the net and develop a game! 
+
+Please do not copy-paste code from the Net and present that as "your" game. 
+Create something of your own, even if it is very simple.
+
+(note: students who do not have significant coding experience, especially
+non CS/IT students, might select this project)
+
+c) Creating Fractals using PyGame
+----------------------------------
+
+Here is another project which may be suitable for people without too much
+of coding experience.
+
+Learn more about fractals: https://en.wikipedia.org/wiki/Fractal
+
+Use the "PyGame" library to draw a fractal (say the https://en.wikipedia.org/wiki/Koch_snowflake ,
+but it can be anything else)
+
+
+d) Porting the Huffman coding program from Python to any other language
+------------------------------------------------------------------------
+
+Here is a small Python program which performs Huffman coding:
+
+http://www.openbookproject.net/py4fun/huffman/huffman.html
+
+Read the code and make sure you understand its working 100%.
+
+Rewrite the code in another language which you are comfortable with 
+(say C, Java etc).
+
+[Note: Reading and understanding code written in one language, rewriting it in
+some other language (to improve say performance) are some things which a software
+designer does routinely. That is the significance of this exercise]
+
